@@ -3,6 +3,7 @@ module.exports = {
   description: 'Гибко, быстро, просто',
   locales: { '/': { lang: 'ru-RU' } },
   lang: 'ru-RU',
+  base: '/website/',
   themeConfig: {
      nav: [
       {
