@@ -1,6 +1,6 @@
 module.exports = {
   title: ' ',
-  description: 'Гибко, быстро, просто',
+  description: 'fugapedia.js — это модуль для Node.js приложений, позволяющий легко взаимодействовать с API Фугапедии',
   locales: { '/': { lang: 'ru-RU' } },
   lang: 'ru-RU',
   themeConfig: {
