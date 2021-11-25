@@ -34,14 +34,15 @@ const main = async () => {
   const article = await client.getArticle('Кирилл_Баранов', { limit: 100 });
   console.log(article);
 
-  const url = Fugapedia.makeImageUrl('Syjalo', 'jpeg');
-  console.log(url); 
+  const url = Fugapedia.makeImageURL('Syjalo', 'jpeg');
+  console.log(url);
+  main();
 }
 ```
 ## TypeScript
 ```ts
 import { Client } from 'fugapedia.js';
-import { makeImageUrl } from './Util';
+import { makeImageURL } from './Util';
 
 const client = new Client().setKey('myAPIKey');
 
@@ -49,7 +50,7 @@ const main = async () => {
   const article = await client.getArticle('Кирилл_Баранов', { limit: 100 });
   console.log(article);
 
-  const url = makeImageUrl('Syjalo', 'jpeg');
+  const url = makeImageURL('Syjalo', 'jpeg');
   console.log(url);
 }
 main();
