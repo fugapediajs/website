@@ -36,8 +36,8 @@ const main = async () => {
 
   const url = Fugapedia.makeImageURL('Syjalo', 'jpeg');
   console.log(url);
-  main();
 }
+main();
 ```
 ## TypeScript
 ```ts
