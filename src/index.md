@@ -9,6 +9,12 @@ features:
 footer: Apache-2.0 License | Copyright © 2021 Synbulat Biishev
 ---
 
+<p align="center">
+  <a href="https://discord.gg/Phqaa4DVEK"><img src="https://img.shields.io/discord/911878509599817739?color=5865F2&logo=discord&logoColor=white&maxAge=3600" alt="Discord" /></a>
+  <a href="https://www.npmjs.com/package/fugapedia.js"><img src="https://img.shields.io/npm/v/fugapedia.js?&maxAge=3600" alt="npm version" /></a>
+  <a href="https://www.npmjs.com/package/fugapedia.js"><img src="https://img.shields.io/npm/dt/fugapedia.js?&maxAge=3600" alt="npm downloads" /></a>
+</p>
+
 # Установка
 ## npm
 ```
