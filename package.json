@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/fugapediajs/website#readme",
   "dependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuepress-theme-yuu": "^3.1.1"
   }
 }
